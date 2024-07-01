@@ -1,0 +1,42 @@
+[
+  {
+    "path": "anesthesia",
+    "name": "Anesthesia",
+    "subCategories":
+    {
+      "path": "anesthesia/obstetrics & gynecology",
+      "name": "Obstetrics & Gynecology",
+      "services": [
+        {
+          "path": "anesthesia/obstetrics & gynecology/1961",
+          "name": "Anesthesia for cesarean delivery",
+          "description": null,
+          "code": "1961",
+          "codeType": "CPT"
+        },
+        {
+          "path": "anesthesia/obstetrics & gynecology/1968",
+          "name": "Anesthesia for cesarean delivery following labor",
+          "description": null,
+          "code": "1968",
+          "codeType": "CPT"
+        },
+        {
+          "path": "anesthesia/obstetrics & gynecology/1967",
+          "name": "Anesthesia for labor during planned vaginal delivery",
+          "description": null,
+          "code": "1967",
+          "codeType": "CPT"
+        },
+        {
+          "path": "anesthesia/obstetrics & gynecology/1960",
+          "name": "Anesthesia for vaginal delivery",
+          "description": null,
+          "code": "1960",
+          "codeType": "CPT"
+        }
+      ]
+    }
+
+  }
+]
