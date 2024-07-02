@@ -1,5 +1,5 @@
 # define base docker image
-FROM openjdk:11
+FROM openjdk:17
 LABEL maintainer="blogApp.net"
-COPY build/libs/*.jar app.jar
-ENTRYPOINT ["java","-jar","/app.jar"]
+ADD target/blogApp-0.0.1-SNAPSHOT.jar blogApp-0.0.1-SNAPSHOT.jar
+ENTRYPOINT ["java", "-jar", "blogApp-0.0.1-SNAPSHOT.jar"]
